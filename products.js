@@ -1,6 +1,6 @@
 var products = [
   {
-    id = "p1",
+    id : "p1",
     name: "Döner chicken kebab",
     photos: ["images/images2.jpg"],
     massa: {
@@ -13,8 +13,8 @@ var products = [
     }
   },
   {
-      id = "p2",
-      name: "Menu combo chicken wrap",
+      id : "p2",
+      name: "Menu combo chicken",
       photos: ["images/images1.jpg"],
       massa: {
         value: 550,
@@ -26,7 +26,7 @@ var products = [
       }
     },
     {
-        id = "p3",
+        id : "p3",
         name: "Hot dog francez",
         photos: ["images/images3.jpg"],
         massa: {

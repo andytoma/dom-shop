@@ -24,8 +24,8 @@ function renderProduct( product ){
       a.className = "btn btn-primary";
       a.innerText = "... Go ...";
       a.addEventListener('click', addToCard);
+      a.id = product.id;
       cardBody.appendChild(a);
-
   var row = document.querySelector("#products .row");
       row.appendChild(card);
 }
@@ -36,11 +36,11 @@ function renderProductList(){
   for (var i = 0; i < products.length; i++) {
     renderProduct( products[i] );
   }
-
 }
 
-function addToCard(){
-  alert();
+function addToCard(e){
+  var x = document.getElementsByTagName("A")[0];
+    console.log(e.id);
 }
 
 
